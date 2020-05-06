@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from 'react-router-dom'
+import { Link } from "react-router-dom";
 function Footer(props) {
   return (
     <div className="footer">
@@ -12,7 +12,7 @@ function Footer(props) {
                 <Link to="/home">Home</Link>
               </li>
               <li>
-                <Link to="/about">About</Link>
+                <Link to="/aboutus">About</Link>
               </li>
               <li>
                 <Link to="/menu">Menu</Link>
